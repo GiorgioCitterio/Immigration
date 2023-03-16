@@ -20,12 +20,11 @@ img{
 }
 
 .text{
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Courier New', Courier, monospace;
 }
 
 .tableimg{
     margin-left: auto;
     margin-right: auto;
-    padding: 15px;
 }
