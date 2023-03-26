@@ -4,29 +4,54 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+
         <link rel="stylesheet" href="style.css">
-        <title>4-IB</title>
+
+        <title>Immigrazione 4IB</title>
     </head>
-    <body>
-        <h1>L'immigrazione secondo la 4IB</h1>
-        <img class="img1" src="src/immigrazione1.jpg" alt="La Vlora, la nave della speranza con la quale sono scappati 27.000 albanesi">
-        <br>
-        <table class="tableimg">
-            <tr>
-                <td>
-                    <img src="src/immigrazione2.jpg" alt="Dalla stazione centrale di Milano">
-                </td>
-                <td>
-                    <img src="src/immigrazione3.JPG" alt="Sbarchi contemporanei in Italia">
-                </td>
-            </tr>
-            <tr>
-                <div class="text">
-                    <td>dal passato...</td> 
-                    <td>... al presente</td> 
+    <body class="">
+        <div class="video-container">
+          <video autoplay muted loop>
+            <source src="src/video_background.mp4" type="video/mp4" />
+          </video>
+        </div>
+          
+        <div class="opacity"></div>
+      
+        <div class="fade-in">
+            <div class="title">
+              <h1 class="glow">L'immigrazione secondo la 4IB</h1>
+            </div>
+
+            <div class="container">
+                <img src="src/immigrazione1.jpg" alt="La Vlora, la nave della speranza con la quale sono scappati 27.000 albanesi" class="past zoom pointer" style="display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 35%;
+                margin-top: 70px;">
+            </div>
+            
+            <div class="image">
+                <div class="container">
+                    <img src="src/immigrazione2.jpg" alt="past ny" class="past zoom pointer">
+                    <p class="glow">Nel passato</p>
                 </div>
-            </tr>
-        </table>
+                <div class="container">
+                    <img src="src/immigrazione3.JPG" alt="present ny" class="present zoom pointer">
+                    <p class="glow">Oggi</p>
+                </div>
+            </div>
+            
+            <div class="footer">
+              <p class="glow zoom">Gangs Of NY</p>
+              <a class="glow zoom" href="pages/immigration/immigration_causes.html">Cosa causa<br>l'immigrazione?</a>
+              <a class="glow zoom" href="pages/gangs/gangs.html">Gangs Of 4IB</a>
+            </div>
+        </div>
         <br>
         <ul>
             <li><a href="subpages/pagina1/index.html" target="_blank">Cos'è l'immigrazione</a></li>

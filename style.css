@@ -7,18 +7,6 @@ h1{
     text-align: center;
 }
 
-.img1{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
-img{
-    width: 700px;
-    height: 400px;
-}
-
 .text{
     font-size: 18px;
     font-family: 'Courier New', Courier, monospace;
@@ -36,6 +24,133 @@ ul{
 
 .ringraziamenti{
     font-size: 24px;
-    margin-bottom: 100px;
     margin-left: 700px;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .video-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+  
+    z-index: -2;
+    overflow: hidden;
+  }
+  
+  .video-container video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .opacity {
+    position: absolute;
+    z-index: -1;
+    background-color: black;
+    opacity: 0.5;
+    
+    width: 100%;
+    height: 100%;
+  }
+  
+  .title {
+    padding-top: 100px;
+    text-align: center;
+  }
+  
+  .title h1 {
+    color: white;
+  
+    font-family: 'Roboto', sans-serif;
+    font-size: 80px;
+  }
+  
+  .image {
+    display: flex;
+    justify-content: space-around;
+  
+    margin-top: 80px;
+  }
+  
+  .image > .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .image > .container p {
+    margin-top: 10px;
+  
+    font-size: 70px;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .past, .present{ 
+    width: 500px;
+    aspect-ratio: 16 / 9;
+    border-radius: 60px;
+  
+    position: relative;
+  
+    transition: transform 1s;
+    
+  }
+  
+  .footer {
+    display: flex;
+    flex-direction: row;
+  
+    justify-content: space-evenly;
+  
+    margin-top: 60px;
+  }
+  
+  .footer p, a{
+    font-size: 40px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    transition: transform 1s;
+  
+    text-decoration: none;
+  }
+  
+  
+  .fade-in {
+    animation: fadeIn 2.5s;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-30px);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+  
+  
+  .zoom:hover {
+    transform: scale(1.1);
+  }
+  
+  .pointer {
+    cursor: pointer;
+  }
+  
+  .glow {
+    color: #fff;
+    text-align: center;
+    /*text-shadow: 0 0 10px #c8c8c8, 0 0 20px #c8c8c8;*/
+  }
