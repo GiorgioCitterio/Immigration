@@ -23,8 +23,9 @@ ul{
 }
 
 .ringraziamenti{
-    font-size: 24px;
-    margin-left: 700px;
+    font-size: 40px;
+    text-align: center;
+    display: block;
 }
 
 *{
@@ -106,12 +107,8 @@ ul{
   }
   
   .footer {
-    display: flex;
-    flex-direction: row;
-  
-    justify-content: space-evenly;
-  
     margin-top: 60px;
+    text-align: start;
   }
   
   .footer p, a{
@@ -119,7 +116,6 @@ ul{
     color: white;
     font-family: 'Roboto', sans-serif;
     transition: transform 1s;
-  
     text-decoration: none;
   }
   
