@@ -77,6 +77,14 @@ p, a {
   animation: wave 1.7s ease-in-out infinite;
 }
 
+.greppi {
+  position: absolute;
+  top: 14%;
+  right: 14%;
+
+  animation: wave 2.0s ease-in-out infinite;
+}
+
 .pillo {
   position: absolute;
   bottom: 14%;
@@ -129,5 +137,5 @@ p, a {
 .glow {
   color: #fff;
   text-align: center;
-  /*text-shadow: 0 0 5px #c8c8c8, 0 0 10px #c8c8c8, 0 0 15px #c8c8c8;*/
+  text-shadow: 0 0 5px #c8c8c8, 0 0 10px #c8c8c8, 0 0 15px #c8c8c8;
 }
