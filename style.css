@@ -1,7 +1,6 @@
 *{
   margin: 0;
   padding: 0;
-  background-color: black;
 }
 
 .video-container {
@@ -41,7 +40,7 @@
   color: white;
 
   font-family: 'Roboto', sans-serif;
-  font-size: 80px;
+  font-size: 5rem;
 }
 
 
@@ -52,16 +51,16 @@
   margin-top: 80px;
 }
 
-.image > .container {
+.image .container {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
 
-.image > .container p {
+.image .container p {
   margin-top: 10px;
 
-  font-size: 70px;
+  font-size: 4rem;
   color: white;
   font-family: "Times New Roman", Times, serif;
 }
@@ -77,6 +76,18 @@
   
 }
 
+.thanks {
+  position: absolute;
+
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  margin-top: 4rem;
+
+  color: red;
+  text-decoration: none;
+}
+
 .footer {
   display: flex;
   flex-direction: row;
@@ -87,7 +98,7 @@
 }
 
 .footer p, a{
-  font-size: 40px;
+  font-size: 3rem;
   color: white;
   font-family: 'Roboto', sans-serif;
   transition: transform 1s;
