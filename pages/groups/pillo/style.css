@@ -34,6 +34,7 @@
 .title {
   text-align: center;
   color: white;
+  display: block;
   
   font-family: 'Roboto', sans-serif;
   font-size: 5rem;
@@ -71,7 +72,7 @@
   justify-content: center;
 }
 
-.table-cell p {
+.table-cell a {
   text-align: center;
     color: white;
   
