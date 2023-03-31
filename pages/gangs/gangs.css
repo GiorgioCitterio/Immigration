@@ -80,17 +80,15 @@ p, a {
 .greppi {
   position: absolute;
   top: 14%;
-  right: 14%;
-  left: 14%;
+  left: 40%;
 
   animation: wave 3.5s ease-in-out infinite;
 }
 
 .device {
-  position: absolute;
+  position: absolute;;
   bottom: 14%;
-  right: 14%;
-  left: 14%;
+  left: 40%;
 
   animation: wave 3.5s ease-in-out infinite;
 }
